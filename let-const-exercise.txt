@@ -1,0 +1,29 @@
+1. var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+const PI = 3.14;
+undefined
+PI = 42;
+VM410:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:4
+﻿
+## **Quiz**
+
+2. What is the difference between ***var*** and ***let***?
+
+Var is a function scoped variable, that can be redeclared and reassigned.
+Let is a block scoped variable that can be reassigned but cannot be redeclared. 
+
+3. What is the difference between **var** and ***const***?
+
+Var is a function scoped variable, that can be redeclared and reassigned.
+Const is a block scoped variable that cannot be redeclared or reassigned.
+
+4. What is the difference between **let** and **const**?
+
+They are both block scoped variables, but let can be reassigned	while const cannot.
+
+5. What is hoisting?
+
+Hoisting is the concept where variables can be "hoisted" to the scope that they are declared in.
+For example, with var, the variable name can be accessed along with its undefined value before it's event assigned a value. 
